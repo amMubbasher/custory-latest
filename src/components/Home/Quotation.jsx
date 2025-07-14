@@ -373,7 +373,7 @@ const Quotation = () => {
             />
           )}
           <motion.span className="relative z-10 flex items-center justify-center gap-2">
-             <Link to="/upgrade">Book a Call with Our Team</Link>
+             <Link to="/https:calendly.com/admincustory/30min">Book a Call with Our Team</Link>
             
             {hoveredButton === 0 && (
               <motion.svg 
