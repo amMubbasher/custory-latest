@@ -298,6 +298,8 @@ import Button from "../common/Button";
 import { FaTiktok, FaTelegram } from 'react-icons/fa';
 import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin } from 'react-icons/ai';
 import { FiPhone, FiArrowUpRight } from "react-icons/fi";
+
+import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Logo from "../../assets/CustoryBanner.png";
 import RemindMeModal from "../common/RemindMeModal";
@@ -638,7 +640,7 @@ const Footer = () => {
                   href="tel:+6580925936"
                   whileHover={{ color: "#FF6600", x: 5 }}
                 >
-                  <FiPhone className="inline mr-2" size={25} />
+                  <FaWhatsapp className="inline mr-2" size={25} />
                   <span>+6580925936</span>
                   <motion.span
                     initial={{ opacity: 0, x: -10 }}
