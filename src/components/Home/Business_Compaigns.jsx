@@ -837,7 +837,7 @@ const Business_Compaigns = () => {
           Merchandise that builds culture and creates connection.
         </motion.p>
         
-        <div className="mb-7">
+        <div className="mb-24">
           <motion.button 
             className="bg-transparent border border-white text-white z-50 px-[20px] py-4 rounded-lg hover:bg-white hover:text-[#FF6600] transition relative overflow-hidden group"
             onClick={() => navigate('/contact')}
@@ -975,7 +975,7 @@ const Business_Compaigns = () => {
               </motion.div>
               
               {/* Zoom interaction effect on hover */}
-              <AnimatePresence>
+              {/* <AnimatePresence>
                 {hoveredIndex === index && !prefersReducedMotion && (
                   <motion.div 
                     className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end justify-center p-4"
@@ -994,13 +994,13 @@ const Business_Compaigns = () => {
                     </motion.div>
                   </motion.div>
                 )}
-              </AnimatePresence>
+              </AnimatePresence> */}
             </motion.div>
           ))}
         </div>
         
         {/* Accessibility control for animations */}
-        {!prefersReducedMotion && (
+        {/* {!prefersReducedMotion && (
           <motion.button 
             className="mt-8 text-sm text-white/70 hover:text-white focus:text-white focus:outline-none"
             initial={{ opacity: 0 }}
@@ -1011,7 +1011,7 @@ const Business_Compaigns = () => {
           >
             Disable animations
           </motion.button>
-        )}
+        )} */}
       </div>
     </motion.div>
   );
