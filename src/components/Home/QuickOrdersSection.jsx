@@ -1280,7 +1280,7 @@ const B2CSection = () => {
       {/* Shop Button */}
       <motion.div className="sm:mb-16 mb-12 relative z-10">
         <motion.button
-          onClick={() => navigate("/products")}
+          onClick={() => navigate("/upgrade")}
           className="relative bg-orange-500 text-white py-4 px-12 rounded-md font-semibold text-sm overflow-hidden group"
           whileHover={{ 
             scale: 1.03,

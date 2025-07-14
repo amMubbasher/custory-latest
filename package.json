@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --open http://localhost:5173/",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' vite build",
+    "dev": "node init && vite --open http://localhost:5173/",
+    "build": "node init && NODE_OPTIONS='--max-old-space-size=4096' vite build",
     "preview": "vite preview"
   },
   "dependencies": {
