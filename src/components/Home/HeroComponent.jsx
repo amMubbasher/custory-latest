@@ -3093,19 +3093,21 @@ const HeroComponent = ({ position = [0, 0, 2.5], fov = 25 }) => {
               variants={buttonFloat(0)}
               initial="initial"
               animate={["animate", "floating"]}
+              onClick={() => navigate("https:calendly.com/admincustory/30min")}
               whileHover="hover"
               whileTap="tap"
               className="bg-[#FF6600] text-white cursor-pointer font-medium py-[18px] px-6 rounded-md text-base hover:bg-orange-600 transition max-sm:flex-grow z-10"
             >
               Book a Call with Our Team
             </motion.button>
+            
             <motion.button
               variants={buttonFloat(1)}
               initial="initial"
               animate={["animate", "floating"]}
               whileHover="hover"
               whileTap="tap"
-              onClick={() => navigate("/products")}
+              onClick={() => navigate("/upgrade")}
               className="bg-[#FF6600] text-white cursor-pointer font-medium py-[18px] px-16 rounded-md text-base hover:bg-orange-600 transition max-sm:flex-grow z-10"
             >
               Shop Now
